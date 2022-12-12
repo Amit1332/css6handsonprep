@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background: url("https://travelourplanet.com/wp-content/uploads/2022/02/Erg-Chebbi-Dunes-Merzouga-Morocco.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    height:10%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding:10px 30px;
+}
+.navbar .two{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .two ul{
+ width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    font-weight: bold;
+    font-family:sans-serif;
+    color: white;
+}
+.one{
+    margin-top: 20px;
+}
+.ri-apps-line{
+    font-size: 50px;
+    color: rgb(205, 197, 197);
+}
+
+#aab{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(182, 172, 172, 0.642);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.mid{
+    height: 90%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mone{
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 50px;
+    color: white;
+    
+}
+.mtwo{
+    height: 100%;
+    width: 50%;
+    /* background-color: green; */
+    display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
+#explore{
+    width: 35%;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+}
+h1{
+    margin-bottom: 10px;
+    font-size: 50px;
+
+}
+
+
+
+.mtone{
+    height: 200px;
+    width: 200px;  
+margin: 30px;
+border-radius: 10px;
+padding: 20px 25px;
+color: rgb(212, 207, 207);
+line-height: 20px;
+transition: .5s all ease-in;
+
+}
+
+.mtone:hover{
+   transform: translateY(-20px);
+   transition: .5s all ease-in;
+
+}
+.mtone p{
+    font-size: 12px;
+    
+}
+.mtone:nth-child(1){
+    background: url("https://i0.wp.com/blog.frontiersin.org/wp-content/uploads/2017/03/shutterstock_227524918.jpg?fit=3077%2C2000&ssl=1");
+    background-position: center;
+    background-size: cover;
+}
+.mtone:nth-child(2){
+    background: url("https://images.unsplash.com/photo-1613169620329-6785c004d900?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2FoYXJhJTIwZGVzZXJ0fGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.mtone:nth-child(3){
+    background: url("https://cdn.kimkim.com/files/a/content_articles/featured_photos/8c2d13f4f6d17266814370e5668db6382bb12707/big-8149319a54c860abb576ae424e54ee54.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.mtone:nth-child(4){
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6eWw9gQIYJjJwbGt8bpzM87zxZccz0y_-Yw&usqp=CAU");
+    background-position: center;
+    background-size: cover;
+}
+
+
+@media (max-width:856px) {
+    .main{
+        height: 100%;
+    }
+    .mtwo{
+   flex-direction: column;
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+    }
+    .mone{
+        width: 100%;
+    }
+    .mtwo{
+        width: 100%
+    }
+    .mtone{
+        width:60%;
+    }
+
+    .navbar .two{
+        width: 60%;
+       
+    }
+   
+    li{
+       
+        margin: 0px 10px;
+    }
+}
+
+
+@media (max-width:555px) {
+   
+
+    .navbar .two{
+        width: 80%;
+       
+    }
+   
+    li{
+       
+        margin: 0px 5px;
+    }
+}
